@@ -14,7 +14,7 @@ def leaf(scale, r, g, b):
 
 
 def main():
-    turtle.clearscreen()
+    turtle.hideturtle()
     turtle.speed(0)
     turtle.colormode(255)
     for i in range(number_of_leaves):
@@ -23,6 +23,7 @@ def main():
         b = random.randint(0, 100)
         leaf(20, r, g, b)
         turtle.left(360 / number_of_leaves)
+    turtle.getcanvas().postscript(file="flower.eps")
 
 
 if __name__ == "__main__":
