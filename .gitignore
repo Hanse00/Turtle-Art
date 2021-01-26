@@ -1,0 +1,5 @@
+# Ignore editor configuration
+.vscode/
+
+# Ignore output postscript files (Used for rendering images of the output)
+*.eps

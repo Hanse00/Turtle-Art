@@ -1,8 +1,10 @@
-Turtle-Art
+Turtle Art
 ==========
 
-Attempts at making art with python turtles
+Attempts at making art with Python turtles
 
-##flower.py
+## [flower.py](flower.py)
+
 A red orange flower, with eliptical petals in randomized colors - all in the red spectrum.
-![Flower image](https://raw.githubusercontent.com/Hanse00/Turtle-Art/master/images/turtle_flower.png)
+
+![Flower Image](images/flower.png)
